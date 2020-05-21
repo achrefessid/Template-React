@@ -1,0 +1,30 @@
+1//bish njibo axios mté3na – bish na3imlo recoiste 3al file json mté3na.
+............................................................................
+2//awél 7aja ni7tajo lil state – mdam na7tajo lil state – 
+lazim function mté3na nrodoha class – 
+et component na3imloléha import mil fo9 {Component} – 
+et dima m3a component fama render.
++mba3id na3mil state equale object féha kilmét team féha empty array, 
+mba3id na3imiléha update binéan 3al acess ijaya. 
+...........................................................................................................................................
+3//mba3id lazimni na3mél recoiste 3al file mta3 json. 
+Bima ino nista5smu fil axios ma3néha component lowil 
+laziméha tit7amil koléha mba3id recoiste item.
++Kiféh component koléha it7amil 3an tari9 componentDidMount(ma3néha mba3id may7amil kol chay) n7il a9wis chniya bish isir, 
+n9olo a3tinii axios.get(in9olo imshi lil file ismou js ili howa fil public) mba3id mé ta3mil recoiste a3lih 
+n9olo then chnowa bish isir, ba3id mat7amil kol chay(a3tini res mté3ik /
+éna in7ib na3mil update lil state athiya bi data athiya ili jibitéha. 
+.........................................................................................
+4//Fi wost renders in9olo a3tini state ijdida ili a3malitéha, 9otlo a3tini team min this.state
+.................................................................................................
+5//honi bil map in9olo 3adi 3al kol function fil array a3titéha name teamItem 
+et na3mil return in7ot fih div ili tit3awid 3 marat.  
+mba3id il hajét ili bich ijiw min json file ina7ihom. et n3awid niktibéhom hasib m3andi fil jsonfile.
+et kol item lazim ikun fih key=workItem.id (id ili éna hato) bish mé yo5rijish error fil console.
+et kol element yilzim ikun fih key mo5talif.  
+..........................................................
+6//teamItem ahiya féha 3 object ili fi json – 
+9otlo kol wa7id hét mino id wil hajét ili katibéhom et a3malo save fil team list –
+3ibara div ili yitkaro 3awadhétéhom bi team list 
+
+
